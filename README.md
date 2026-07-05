@@ -28,7 +28,7 @@ six short, self-contained notebooks. Two ways to run them:
 
     ```bash
     uv venv --python 3.13 && source .venv/bin/activate
-    uv pip install "gwmock[sgwb]" jupyterlab matplotlib
+    uv sync
     jupyter lab    # open materials/notebooks/
     ```
 

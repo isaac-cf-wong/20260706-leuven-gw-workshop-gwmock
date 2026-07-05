@@ -739,9 +739,9 @@ requires-dist = [
     { name = "gwmock-pop", specifier = "==0.10.3" },
     { name = "gwmock-signal", specifier = "==0.9.3" },
     { name = "ipykernel", specifier = ">=7.3.0" },
-    { name = "jupyterlab", specifier = ">=4" },
-    { name = "matplotlib", specifier = ">=3.8" },
-    { name = "nbconvert", specifier = ">=7" },
+    { name = "jupyterlab", specifier = ">=4.6.1" },
+    { name = "matplotlib", specifier = ">=3.11.0" },
+    { name = "nbconvert", specifier = ">=7.17.1" },
 ]
 
 [package.metadata.requires-dev]

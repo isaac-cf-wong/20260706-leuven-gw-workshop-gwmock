@@ -56,18 +56,7 @@ index.html            # loads the slides
 materials/
   README.md           # how to run the notebooks (local + Colab)
   notebooks/          # the six workshop notebooks
-MAINTAINER-NOTES.md   # findings from prep (all fixed upstream) + verification workflow
 ```
-
-## Verification
-
-All six notebooks were executed end-to-end against the released stack
-(`gwmock 0.9.0`, `gwmock-signal 0.9.3`, `gwmock-noise 0.6.1`,
-`gwmock-pop 0.10.3`), and the quantitative anchor checks they contain — merge
-exactness, ASD vs input PSD, SGWB PSD vs theory, bit-identical metadata replay —
-all pass. Issues found during preparation were fixed and released upstream
-before the workshop; the record is in
-[`MAINTAINER-NOTES.md`](MAINTAINER-NOTES.md).
 
 ## Building the slides
 

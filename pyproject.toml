@@ -13,9 +13,9 @@ dependencies = [
   "gwmock-noise==0.6.1",
   "gwmock-pop==0.10.3",
   # Tools used by the notebooks.
-  "jupyterlab>=4",
-  "matplotlib>=3.8",
-  "nbconvert>=7",
+  "jupyterlab>=4.6.1",
+  "matplotlib>=3.11.0",
+  "nbconvert>=7.17.1",
   "ipykernel>=7.3.0",
 ]
 
